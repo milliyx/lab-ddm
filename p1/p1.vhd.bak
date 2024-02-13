@@ -1,0 +1,27 @@
+-- PAQUETES
+Library IEEE;
+Use IEEE.Std_logic_1164.all;
+
+--Entidad
+entity p1 is
+port(	entradas : in std_logic_vector(2 downto 0);  ----cuatos bits voy a querer 
+		salidas: out std_logic_vector(6 downto 0) ----7 bits de salida
+);
+end entity
+
+-- Arquitectura
+architecture behavioral of p1 is
+-- Declaraciones
+
+begin
+with entradas select
+salidas <= "1000000" when "000",
+			  "1000110" when "001",
+			  "0000110" when "010",
+			  "0000110" when "011",
+			  "0010010" when "100",
+			  "0010010" when "101",
+			  "0010010" when "110",
+			  "0010010" when "111",
+		  
+end architecture;
