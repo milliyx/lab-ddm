@@ -1,0 +1,6 @@
+{ "Info" "IDMS_INIT_MSG_DB" "" "Initialized Quartus Message Database" {  } {  } 0 21958 "Initialized Quartus Message Database" 0 0 "Design Software" 0 -1 0 ""}
+{ "Info" "0" "" "Analyzing source files" {  } {  } 0 0 "Analyzing source files" 0 0 "0" 0 0 1707876507552 ""}
+{ "Warning" "WQIS_NO_SUCH_FILE" "../Documentos/hospital.vhd " "Can't analyze file ../Documentos/hospital.vhd - no such file exists" {  } {  } 0 16124 "Can't analyze file %1!s! - no such file exists" 0 0 "Design Software" 0 -1 1707876507561 ""}
+{ "Info" "0" "" "Elaborating from top-level entity \"hospital\"" {  } {  } 0 0 "Elaborating from top-level entity \"hospital\"" 0 0 "0" 0 0 1707876508867 ""}
+{ "Error" "EQIS_TOP_ENTITY_IS_MISSING" "hospital " "Top-level design entity \"hospital\" is undefined" {  } {  } 0 16368 "Top-level design entity \"%1!s!\" is undefined" 0 0 "Design Software" 0 -1 1707876508879 ""}
+{ "Error" "0" "" "Failed to elaborate design: " {  } {  } 0 0 "Failed to elaborate design: " 0 0 "0" 0 0 1707876508930 ""}
