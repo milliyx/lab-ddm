@@ -1,0 +1,302 @@
+$comment
+	File created using the following command:
+		vcd file comparador.msim.vcd -direction
+$end
+$date
+	Wed Feb 21 08:13:42 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module comparador_vhd_vec_tst $end
+$var wire 1 ! A [1] $end
+$var wire 1 " A [0] $end
+$var wire 1 # B [1] $end
+$var wire 1 $ B [0] $end
+$var wire 1 % igual $end
+$var wire 1 & mayor $end
+$var wire 1 ' menor $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_A [1] $end
+$var wire 1 2 ww_A [0] $end
+$var wire 1 3 ww_B [1] $end
+$var wire 1 4 ww_B [0] $end
+$var wire 1 5 ww_mayor $end
+$var wire 1 6 ww_menor $end
+$var wire 1 7 ww_igual $end
+$var wire 1 8 \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [4] $end
+$var wire 1 9 \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [3] $end
+$var wire 1 : \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [2] $end
+$var wire 1 ; \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [1] $end
+$var wire 1 < \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [0] $end
+$var wire 1 = \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [4] $end
+$var wire 1 > \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [3] $end
+$var wire 1 ? \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [2] $end
+$var wire 1 @ \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [1] $end
+$var wire 1 A \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [0] $end
+$var wire 1 B \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 C \~QUARTUS_CREATED_UNVM~~busy\ $end
+$var wire 1 D \~QUARTUS_CREATED_ADC1~~eoc\ $end
+$var wire 1 E \~QUARTUS_CREATED_ADC2~~eoc\ $end
+$var wire 1 F \mayor~output_o\ $end
+$var wire 1 G \menor~output_o\ $end
+$var wire 1 H \igual~output_o\ $end
+$var wire 1 I \A[1]~input_o\ $end
+$var wire 1 J \A[0]~input_o\ $end
+$var wire 1 K \B[0]~input_o\ $end
+$var wire 1 L \B[1]~input_o\ $end
+$var wire 1 M \LessThan0~0_combout\ $end
+$var wire 1 N \menor~0_combout\ $end
+$var wire 1 O \igual~0_combout\ $end
+$var wire 1 P \ALT_INV_igual~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1%
+0&
+0'
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+05
+06
+17
+0B
+zC
+zD
+zE
+0F
+0G
+1H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+1P
+0!
+0"
+0#
+0$
+01
+02
+03
+04
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+$end
+#40000
+1!
+1"
+1#
+1$
+12
+11
+14
+13
+1L
+1K
+1I
+1J
+#160000
+0"
+02
+0J
+1N
+1O
+0P
+1G
+0H
+16
+07
+1'
+0%
+#180000
+0!
+01
+0I
+#220000
+0#
+0$
+04
+03
+0L
+0K
+0N
+0O
+1P
+0G
+1H
+06
+17
+0'
+1%
+#320000
+1!
+11
+1I
+1M
+1O
+0P
+1F
+0H
+15
+07
+1&
+0%
+#340000
+1#
+1$
+1"
+14
+13
+12
+1J
+1L
+1K
+0M
+0O
+1P
+0F
+1H
+05
+17
+0&
+1%
+#440000
+0#
+0$
+0"
+0!
+04
+03
+02
+01
+0I
+0J
+0L
+0K
+#600000
+1!
+11
+1I
+1M
+1O
+0P
+1F
+0H
+15
+07
+1&
+0%
+#640000
+1#
+13
+1L
+0M
+0O
+1P
+0F
+1H
+05
+17
+0&
+1%
+#720000
+0!
+01
+0I
+1N
+1O
+0P
+1G
+0H
+16
+07
+1'
+0%
+#760000
+0#
+03
+0L
+0N
+0O
+1P
+0G
+1H
+06
+17
+0'
+1%
+#860000
+1!
+1"
+12
+11
+1I
+1J
+1M
+1O
+0P
+1F
+0H
+15
+07
+1&
+0%
+#900000
+1$
+14
+1K
+#960000
+0$
+0!
+0"
+04
+02
+01
+0I
+0J
+0K
+0M
+0O
+1P
+0F
+1H
+05
+17
+0&
+1%
+#1000000
