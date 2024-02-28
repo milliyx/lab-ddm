@@ -1,0 +1,14 @@
+|comparador
+A[0] => LessThan0.IN2
+A[0] => LessThan1.IN2
+A[1] => LessThan0.IN1
+A[1] => LessThan1.IN1
+B[0] => LessThan0.IN4
+B[0] => LessThan1.IN4
+B[1] => LessThan0.IN3
+B[1] => LessThan1.IN3
+mayor <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+menor <= menor.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+
+
